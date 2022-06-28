@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@300;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 30px #26395338;
+  width: 400px;
+}
+
+.mediaCard {
+  background: url('https://conteudo.imguol.com.br/c/entretenimento/58/2022/05/12/novo-poster-da-quarta-temporada-de-stranger-things-1652368177430_v2_1x1.jpg')
+    center/cover;
+  height: 300px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.title {
+  color: red;
+}
+
+.title:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.secondText {
+  color: rgb(175, 111, 111);
+}
+
+.bottomTexto {
+  color: black;
+}
+
+.topCard {
+  padding: 12px;
+  padding-top: 0px;
+}
+
+.bottomCard {
+  padding: 12px;
+  padding-bottom: 12px;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.actions:hover {
+  color: black;
+}
